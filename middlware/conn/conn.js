@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
-const URL =
-  "mongodb+srv://root:Root5600@cluster0.bwckus6.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0";
+const URL = "";
 const dbConnect = async () => {
   try {
     await mongoose.connect(URL);
